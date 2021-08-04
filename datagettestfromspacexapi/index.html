@@ -28,7 +28,7 @@
         </div>
 
     <script>
-        $.getJSON('https://api.spacexdata.com/v3/launches/latest', function(data) {
+        $.getJSON('https://api.spacexdata.com/v5/launches/latest', function(data) {
                 
         var text = `Numer lotu: ${data.flight_number}<br>
 					Rakieta: ${data.rocket.rocket_name} <br>
